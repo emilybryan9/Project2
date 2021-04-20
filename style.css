@@ -1,0 +1,77 @@
+.image {
+    width:512px;
+    height:384px;
+    border-style:solid;
+}
+
+.albums {
+    width:400px;
+    height:272;
+    border-style:solid;
+}
+
+h1 {
+    font-size:50px;
+}
+
+#MJ {
+    width:425px;
+    height:550px; 
+    border-style:solid;
+}
+
+.disco {
+    border-style:double;
+    position:relative;
+    width: 275px;
+    height:325px;
+}
+
+#h2 {
+    text-align:left;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    list-style: none;
+    margin: 0; 
+    background-color:rgb(187, 53, 53)
+
+}
+
+.table {
+    width:50%;
+}    
+.table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.iframe {
+    width:1000px;
+    height:500px;
+}
+
+.form {
+
+    margin:auto;
+    padding:10%;
+}
+
+.text {
+    overflow-wrap:break-word;
+
+}
+
+body {
+    background-color: rgb(247, 224, 224);
+}
+
+.quote {
+    font-family:cursive;
+    font-size:30px;
+
+}
