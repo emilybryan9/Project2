@@ -2,6 +2,9 @@
     width:512px;
     height:384px;
     border-style:solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .albums {
@@ -12,12 +15,16 @@
 
 h1 {
     font-size:50px;
+    text-align:center;
 }
 
 #MJ {
     width:425px;
     height:550px; 
     border-style:solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .disco {
@@ -38,7 +45,8 @@ h1 {
     
     list-style: none;
     margin: 0; 
-    background-color:rgb(187, 53, 53)
+    font-size:30px;
+    
 
 }
 
@@ -63,15 +71,16 @@ h1 {
 
 .text {
     overflow-wrap:break-word;
+    text-align:center;
 
-}
-
-body {
-    background-color: rgb(247, 224, 224);
 }
 
 .quote {
     font-family:cursive;
     font-size:30px;
 
+}
+
+body {
+    background-color:#f5f1de
 }
